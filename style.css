@@ -76,6 +76,7 @@ p {
   transition: var(--transition);
   font-size: 0.875rem;
   border: none;
+  border-radius: var(--radius);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
@@ -151,7 +152,7 @@ body {
   margin: 0.5rem 0 0 0.45em;
 }
 .logo img {
-  width: 15vw;
+  width: 8vw;
 }
 
 .logo,
@@ -479,6 +480,7 @@ body {
 .submit-btn {
   display: block;
   width: 100%;
+  border-radius: 0.8px;
   padding: 1rem;
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
@@ -509,7 +511,7 @@ body {
   justify-items: center;
 }
 .footer-icon {
-  color: var(--clr-primary);
+  color: var(--clr-grey-1);
   transition: var(--transition);
   font-size: 1.5rem;
 }
