@@ -244,8 +244,8 @@ body {
   display: block;
   grid-column: 2/3;
   grid-row: 4/5;
-  justify-content: center;
-  justify-self: center;
+  justify-content: left;
+  justify-self: left;
 }
 .hero-subtitle {
   grid-column: 2/3;
