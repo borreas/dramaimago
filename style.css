@@ -43,7 +43,7 @@ p {
   margin-bottom: 1.25rem;
 }
 
-  /* h1 {
+/* h1 {
     font-size: 2rem;
   }
   /* h2 {
@@ -234,6 +234,12 @@ body {
   background-color: #f1f1f1;
   justify-content: center;
 }
+@media screen and (max-width: 1024px) {
+  .hero-section {
+    height: 100vh;
+    grid-template-rows: 100px 100px 200px 50px 50px;
+  }
+}
 .hero-title {
   margin-top: 2rem;
   grid-column: 2/3;
@@ -300,7 +306,7 @@ body {
 }
 @media screen and (max-width: 960px) {
   .hero-section {
-    height: 100vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: 50px 300px;
     grid-template-rows: 100px 100px 200px 50px 250px;
@@ -335,7 +341,6 @@ body {
     justify-self: center;
   }
   .hero-image {
-    width: 80%;
     justify-content: center;
     align-self: center;
     justify-self: center;
@@ -343,12 +348,6 @@ body {
   .hero-content {
     grid-column: 2/3;
     grid-row: 3/4;
-  }
-}
-@media screen and (max-width: 440px) {
-  .hero-section {
-    height: 60vh;
-    grid-template-rows: 50px 50px 150px 80px 150px;
   }
 }
 
@@ -534,20 +533,47 @@ body {
     max-width: 80%;
     min-width: 70%;
   }
-}
-@media screen and (max-width: 450px) {
   .hero-section {
-    height: 100vh;
-    grid-template-rows: 100px 100px 200px 50px 250px;
+    height: 120vh;
   }
-  .footer-logo img {
-    width: 4rem;
+}
+@media screen and (max-width: 447px) {
+  .hero-section {
+    height: 80vh;
+    grid-template-rows: 100px 100px 200px 50px 50px;
   }
-  .footer-icon {
+}
+@media screen and (max-width: 393px) {
+  .hero-section {
+    height: 90vh;
+    grid-template-rows: 100px 100px 200px 50px 50px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero-section {
+    height: 110vh;
+    grid-template-rows: 100px 100px 200px 50px 50px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .hero-section {
+    height: 120vh;
+    max-width: 50vh;
+    grid-template-columns: 50px 200px;
+    grid-template-rows: 100px 100px 250px 50px 100px;
+  }
+  .hero-content {
     font-size: 0.8rem;
+    text-align: center;
   }
-  .hero-img {
-    max-width: 80%;
-    min-width: 70%;
-  }
+}
+.footer-logo img {
+  width: 4rem;
+}
+.footer-icon {
+  font-size: 0.8rem;
+}
+.hero-img {
+  max-width: 80%;
+  min-width: 70%;
 }
