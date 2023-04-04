@@ -307,7 +307,7 @@ body {
 }
 @media screen and (max-width: 960px) {
   .hero-section {
-    height: 80vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 50px 300px;
     grid-template-rows: 100px 100px 200px 50px 250px;
@@ -539,9 +539,9 @@ body {
     height: 120vh;
   }
 }
-@media screen and (max-width: 447px) {
+@media screen and (max-width: 450px) {
   .hero-section {
-    height: 90vh;
+    height: 100vh;
     grid-template-rows: 100px 100px 200px 50px 200px;
   }
 }
