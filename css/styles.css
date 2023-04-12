@@ -369,7 +369,6 @@ About
   }
   .about-photo {
     position: relative;
-    width: 40%;
   }
   .about-soundmap::before {
     content: "";
