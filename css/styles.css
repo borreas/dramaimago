@@ -369,6 +369,7 @@ About
   }
   .about-photo {
     position: relative;
+    width: 40%;
   }
   .about-soundmap::before {
     content: "";
@@ -746,7 +747,7 @@ Footer
   letter-spacing: var(--spacing);
 }
 .form-control::placeholder {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-family: var(--ff-primary);
   color: var(--clr-grey-1);
   text-transform: uppercase;
